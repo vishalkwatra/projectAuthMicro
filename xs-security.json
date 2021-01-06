@@ -10,7 +10,7 @@
   "role-templates": [
     {
       "name": "readRoleTemplateVishal",
-      "description": "You can read with this yay role!",
+      "description": "You can read witsd this yay role",
       "scope-references": ["$XSAPPNAME.readDataVishal"]
     }
   ]
