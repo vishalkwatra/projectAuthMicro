@@ -11,6 +11,17 @@ applications:
       - hdidemodb1
       - xsuaa
 
+#NodeJS App
+  - name: demoNode
+    buildpack: nodejs_buildpack
+    memory: 256M
+    routes:
+      - route: https://demohdinode-somenamevishalurl.cfapps.eu10.hana.ondemand.com
+    timeout: 100
+    path: nodeapp
+    services:
+      - hdidemodb1
+
   #NodeJS Approuter
   - name: approuter
     buildpack: nodejs_buildpack
